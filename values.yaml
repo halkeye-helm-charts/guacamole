@@ -73,3 +73,10 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+postgres:
+  hostname: "postgresql"
+  port: "5432"
+  database: "guacamole"
+  user: "guacamole"
+  password: "password"
