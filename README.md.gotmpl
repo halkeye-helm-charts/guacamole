@@ -1,4 +1,12 @@
 {{ template "chart.header" . }}
+
+## TL;DR;
+
+```console
+$ helm repo add halkeye https://halkeye.github.io/helm-charts
+$ helm install guacamole halkeye/guacamole
+```
+
 {{ template "chart.description" . }}
 
 {{ template "chart.versionLine" . }}
@@ -6,6 +14,8 @@
 {{ template "chart.sourceLinkLine" . }}
 
 ## Changelog
+
+0.2.1 - helm-docs doesn't add a tl;dr section, so add it manually
 
 0.2.0 - Apparently I didn't actually use it before, i was running an old copy
 
